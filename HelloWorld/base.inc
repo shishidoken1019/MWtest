@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 
 //
 ini_set('display_errors', 'on');
@@ -6,19 +6,18 @@ error_reporting(E_ALL);
 //
 //ini_set('display_errors', 'off');
 
-// MW‚ðŽg‚¦‚é‚æ‚¤‚É‚·‚é
+// MWã‚’ä½¿ãˆã‚‹ã‚ˆã†ã«ã™ã‚‹
 $dir = 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MWtest\MW';
 set_include_path(get_include_path() . PATH_SEPARATOR . $dir);
 
-// Šî–{“I‚Èphp.ini‚ÌÝ’èŠeŽí
+// åŸºæœ¬çš„ãªphp.iniã®è¨­å®šå„ç¨®
 require_once('mw_set_ini.inc');
 
-// Šî€ƒfƒBƒŒƒNƒgƒŠ‚ÌÝ’è
-$bp = 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MWtest\HelloWorld\';
+// åŸºæº–ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®è¨­å®š
+$bp = 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MWtest\HelloWorld/';
 
-// configƒtƒ@ƒCƒ‹–¼
-$config       = $bp . 'conf/config.conf';
-
+// configãƒ•ã‚¡ã‚¤ãƒ«å
+$config = $bp . 'conf/config.conf';
 //
 require_once('controller.inc');
 
