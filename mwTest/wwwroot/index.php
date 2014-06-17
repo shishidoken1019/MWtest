@@ -3,7 +3,7 @@
  require_once('C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MW\mw.conf');
  
  // config
- $bp = 'C:\03_shishido\shishido_program_file2.0\php\include\MW';
+ $bp = 'C:\03_shishido\shishido_program_file2.0\php\include\MW\conf';
  $config = $bp . 'config.conf';
 
  
@@ -15,3 +15,4 @@
   // $cobj->set_base_path($bp);
    $cobj->set_config($config);
    $cobj->run();
+   var_dump("funish");

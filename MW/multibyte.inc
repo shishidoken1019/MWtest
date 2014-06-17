@@ -32,7 +32,7 @@ class multibyte {
 public function __construct()
 {
   // XXX 办眉泣塑胳盖年×
-  mb_language("Japanese");
+  mb_language('Japanese');
   // XXX 界戎盖年×
   //mb_detect_order('eucjp-win,sjis-win,SJIS,EUC-JP,JIS,UTF-8,ASCII');
   //mb_detect_order('sjis-win,eucjp-win,SJIS,EUC-JP,JIS,UTF-8,ASCII');
