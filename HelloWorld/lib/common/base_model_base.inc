@@ -1,20 +1,15 @@
 <?php
+
 /***************************************************
- * Hello world Top Page
+ * ‘S‘Ì‹¤’Ê
  *
  * @package
  * @access  public
  * @author
  * @create
- * @version
  ***************************************************/
 
 require_once('base_model.inc');
 
-class mw_index extends base_model {
-
-public function execute() {
-	
-}
-
+class base_model_base extends base_model {
 } // end of class
