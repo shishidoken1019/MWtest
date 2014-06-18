@@ -13,5 +13,5 @@ $smarty->template_dir = 'C:\Program Files\Apache Software Foundation\Apache2.2\h
 $smarty->compile_dir  = 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MWtest\smarty_wk\template_c/';
 $smarty->config_dir   = 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\MWtest\smarty_wk\config/';
 
-$smarty->assign('msg','‚Ü‚¶‚Å‚¨‚±‚Á‚½‚Æ‚«‚Ù‚Ç‚·‚ª‚¨‚ª‚¢‚Æ‚µ‚­‚Ä!');
+$smarty->assign('msg','‚Ü‚¶‚Å‚¨‚±‚Á‚½‚Æ‚«‚Ù‚Ç‚·‚ª‚¨‚ª‚¢‚Æ‚µ‚­‚Ä');
 $smarty->display('byebye.tpl');

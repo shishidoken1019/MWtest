@@ -5,6 +5,6 @@
 <title>MagicWeapon HelloWorld.</title>
 </head>
 <body>
-HelloWorld.
+%%%message%%%
 </body>
 </html>
